@@ -1337,7 +1337,7 @@ label::after {
 }
 
 #small-height{
-  min-height: 32vh;
+  min-height: 35vh;
 }
 .cta .big-font {
   font-size: 1rem;
