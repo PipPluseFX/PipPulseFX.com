@@ -272,6 +272,7 @@ grid-gap: 30px;
 .client img{
   width: 70px;
   height: 70px;
+  object-fit: cover;
   border-radius: 50%;
   margin-bottom: 15px;
 }
@@ -748,7 +749,8 @@ box-sizing: border-box;
   flex-basis: 50%;
   background-color: var(--color-blue);
   color: white;
-  padding: 2rem;
+  padding: 1.5rem 1.2rem;
+
   border-radius: 10px;
   height: 520px;
 }
@@ -761,8 +763,8 @@ box-sizing: border-box;
 .three-four{
   flex-basis: 50%;
   background-color: var(--color-blue);
+  padding: 1.5rem 1.2rem;
   color: white;
-  padding: 2rem;
   border-radius: 10px;
   height: 520px;
 }
@@ -777,6 +779,9 @@ box-sizing: border-box;
 }
 
 
+.style:hover{
+  text-decoration:underline;
+}
 
 
 /*-------------------------For small screen devices----------------------*/
